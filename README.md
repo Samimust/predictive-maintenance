@@ -1,28 +1,27 @@
 
 # Preventive Maintenance
-#### First Capstone Project - Springboard DS
+##### First Capstone Project - Springboard DS Career Track
 
 ### Problem:
 
 Failure prediction is a major topic in predictive maintenance in many industries. Airlines are particularly interested in predicting equipment failures in advance so that they can enhance operations and reduce flight delays. 
 
-Observing equipment's health and condition through sensors and telemetry data is assumed to facilitate this type of maintenance by predicting Time-To-Failure (TTF) or Remaining Useful Life (RUL) of in-service equipment. This project will try to validate this assumption.
-
+Observing engine's health and condition through sensors and telemetry data is assumed to facilitate this type of maintenance by predicting Time-To-Failure (TTF) or Remaining Useful Life (RUL) of in-service equipment. Using aircraft engine's sensors measurements, can we predict engine's TTF?.
 
 ### Client:
 
-In a predictive maintenance scenario provided by Microsoft, A fictitious Airline Company is trying to utilize historical data of equipment sensors to make data-driven decisions on its maintenance planning.  Based on this analysis, the company will be able to estimate equipment time-to-failure and optimize its maintenance operations accordingly.
+In a predictive maintenance scenario provided by Microsoft, A fictitious airline Company is trying to utilize historical data of equipment sensors to make data-driven decisions on its maintenance planning.  Based on this analysis, the company will be able to estimate engine's time-to-failure and optimize its maintenance operations accordingly.
 
 
 ### Data:
 
-Text files contain simulated aircraft engine run-to-failure events, operational settings, and 21 sensors measurements are provided by Microsoft. It is assumed that the engine progressing degradation pattern is reflected in its sensor measurements.
-Training Data:  The aircraft engine run-to-failure data.
-http://azuremlsamples.azureml.net/templatedata/PM_train.txt
-Test Data: The aircraft engine operating data without failure events recorded
-http://azuremlsamples.azureml.net/templatedata/PM_test.txt
-Ground Truth Data: The true remaining cycles for each engine in the testing data
-http://azuremlsamples.azureml.net/templatedata/PM_truth.txt
+Text files contain simulated aircraft engine run-to-failure events, operational settings, and 21 sensors measurements are provided by Microsoft. It is assumed that the engine progressing degradation pattern is reflected in its sensor measurements.  
+___Training Data:___  The aircraft engine run-to-failure data.
+[download trianing data](http://azuremlsamples.azureml.net/templatedata/PM_train.txt)  
+___Test Data:___ The aircraft engine operating data without failure events recorded.
+[download test data](http://azuremlsamples.azureml.net/templatedata/PM_test.txt)  
+___Ground Truth Data:___ The true remaining cycles for each engine in the testing data.
+[download truth data](http://azuremlsamples.azureml.net/templatedata/PM_truth.txt)
 
 
 
@@ -35,5 +34,6 @@ Classification modeling algorithms could be used to predict if the engine will f
 
 ### Deliverables:
 
-Project code, well-documented on github and Final project paper
+- Project code, well-documented on github  
+- Final project paper
 

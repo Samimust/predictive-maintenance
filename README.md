@@ -1,5 +1,5 @@
 
-# Preventive Maintenance
+# Predictive Maintenance
 ##### First Capstone Project - Springboard DS Career Track
 
 ### Problem:
